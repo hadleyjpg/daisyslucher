@@ -41,6 +41,18 @@ ul.nav-cont li {
 	margin: 0 0 0 auto;
 }
 
+.panel.noheight {
+	height: 100vh;
+}
+
+.gallery {
+	padding: 5rem;
+}
+
+.intro.outro {
+	width: 45rem !important;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2239,9 +2251,7 @@ input, select, textarea {
 			}
 
 			.panel > *.color2 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-				background-size: 128px 128px, auto;
-				background-color: #e37b7c;
+				background-color: #7E4E6A;
 			}
 
 			.panel > *.color3 {
@@ -2756,9 +2766,7 @@ input, select, textarea {
 		}
 
 		.panel.color2 {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-			background-size: 128px 128px, auto;
-			background-color: #e37b7c;
+			background-color: #7E4E6A;
 		}
 
 		.panel.color3 {
