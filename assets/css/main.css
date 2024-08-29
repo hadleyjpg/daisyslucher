@@ -17,13 +17,27 @@ section.panel.banner.right, section#first {
 }
 
 .img-center img {
-	height: 88%;
+	height: 100%;
+}
+
+.italic {
+	font-style: italic;
+}
+
+h2.major {
+	text-align: right;
+	font-size: 3.25rem;
+}
+
+section#artwork .intro {
+	padding-right: 0;
 }
 
 ul.nav-cont {
+	list-style: none;
 	position: fixed;
-	bottom: 20px;
-	left: 40px;
+	top: 40px;
+	right: 40px;
 	z-index: 9999;
 	display: flex;
 	flex-wrap: wrap;
@@ -33,7 +47,7 @@ ul.nav-cont {
 	padding: 14px 28px 18px;
 }
 
-ul.nav-cont, ul.contact-list {
+ul.contact-list {
 	list-style: none;
 	padding-left: 0;
 }
@@ -127,6 +141,14 @@ section#contact {
 
 .contact-bg {
 	background: no-repeat center/cover url(../../images/studio-headshot.jpg);
+}
+
+section#bio {
+	background: no-repeat right/cover url(../../images/headshot-bg.jpg);
+}
+
+section#bio .content.align-right.span-7-75 .bio.color1 {
+	width: 700px;
 }
 
 .color1 {
@@ -474,7 +496,7 @@ input, select, textarea {
 		position: relative;
 	}
 
-		h1.major:after, h2.major:after, h3.major:after {
+		h1.major:after, h3.major:after {
 			content: '';
 			position: absolute;
 			left: 0;
