@@ -429,17 +429,26 @@ input, select, textarea {
 			padding: 0;
 		}
 
-		section#other .intro {
+		section#other .intro, section#artwork .intro {
 			width: 100% !important;
 			display: flex;
 			padding: 0;
 			align-items: flex-end;
 		}
 
+		section#artwork .intro {
+			padding-right: 10px;
+		}
+
 		.intro.outro {
 			padding: 0 !important;
 			width: 85vw !important;
 			margin-top: 5rem;
+		}
+
+		section#bio .content.align-right.span-7-75 {
+			width: 87vw;
+			margin: 0 auto;
 		}
 
 	}
