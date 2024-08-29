@@ -451,6 +451,14 @@ input, select, textarea {
 			margin: 0 auto;
 		}
 
+		section#bio .content.align-right.span-7-75 .bio.color1 {
+			width: 100%;
+		}
+
+		.nav-cont {
+			display: none !important;
+		}
+
 	}
 
 	@media screen and (max-width: 480px) {
